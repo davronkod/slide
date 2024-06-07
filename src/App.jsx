@@ -1,4 +1,13 @@
 import './App.css';
+import tabiat from "./assets/img/tabiat.png";
+import tabiat2 from "./assets/img/tabiat2.jpg";
+import tabiat3 from "./assets/img/tabiat3.jpg";
+import tabiat4 from "./assets/img/tabiat4.jpg";
+import tabiat5 from "./assets/img/tabiat5.jpg";
+import tabiat6 from "./assets/img/tabiat6.jpg";
+import tabiat7 from "./assets/img/tabiat7.jpg";
+import tabiat8 from "./assets/img/tabiat8.jpg";
+import tabiat9 from "./assets/img/tabiat9.jpg";
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
@@ -31,15 +40,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
       <Swiper
         grabCursor={true}
@@ -57,15 +66,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper2"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
       <Swiper
         grabCursor={true}
@@ -82,15 +91,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper3"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
       <Swiper
         grabCursor={true}
@@ -110,15 +119,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper4"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
       <Swiper
         grabCursor={true}
@@ -138,15 +147,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper5"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
       <Swiper
         grabCursor={true}
@@ -167,15 +176,15 @@ function App() {
         modules={[EffectCreative]}
         className="mySwiper6"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='q3' src={tabiat} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="q2" src={tabiat2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q1' src={tabiat3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='q4' src={tabiat4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat5} alt="" className="q5" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat6} alt="" className="q6" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat7} alt="" className="q7" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat8} alt="" className="q8" /></SwiperSlide>
+        <SwiperSlide><img src={tabiat9} alt="" className="q9" /></SwiperSlide>
       </Swiper>
     </div>
   );
